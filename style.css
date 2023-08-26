@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1f242d;
+  color: #fff;
+}
+.head {
+  position: fixed;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+.navbar a {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 35px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #0ef;
+}
+.home {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 10%;
+}
+.home-content {
+  max-width: 600px;
+}
+.home-content h4 {
+  padding: 2px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.home-content h4 span {
+  color: #0ed;
+}
+.home-content h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: -3px 0;
+  letter-spacing: 5px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #0ed;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #000;
+}
+.home-img img {
+  max-width: 450px;
+  border-radius: 15px;
+}
+/* ......about section......... */
+
+#about {
+  font-family: sans-serif;
+  padding: 80px 0;
+  color: #0ef;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.about-col-1 {
+  flex-basis: 35%;
+}
+.about-col-1 img {
+  width: 80%;
+  border-radius: 15px;
+  margin-left: 80px;
+}
+.about-col-2 {
+  flex-basis: 60%;
+}
